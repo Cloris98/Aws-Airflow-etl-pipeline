@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# PyCharm project files
+.idea/
+
+# Airflow logs & config
+logs/
+airflow.cfg
+unittest.cfg
+*.db
+
+# Environment variables
+.env
+
+# Kaggle credentials or local secrets
+.kaggle/
+*.pem
+
+# Docker
+*.pid
+
+# Glue script outputs (optional)
+glue_jobs/__pycache__/
+
+# macOS metadata
+.DS_Store
+
